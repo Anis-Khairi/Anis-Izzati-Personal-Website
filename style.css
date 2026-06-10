@@ -1,0 +1,101 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: lavender;
+}
+
+header {
+background-color: purple;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+nav {
+background-color: mediumpurple;
+overflow: hidden;
+}
+
+nav a {
+float: left;
+display: block;
+color: solid black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+background-color: thistle;
+color: black;
+}
+
+.container {
+padding: 20px;
+}
+
+.card {
+background-color: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+img {
+border-radius: 10px;
+}
+
+footer {
+background-color: purple;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+.table-style {
+width: 100%;
+border-collapse: collapse;
+}
+
+.table-style th{
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+.table-style td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+
+.table-style th {
+background-color: thistle;
+}
+
+.gallery {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+button {
+background-color: mediumpurple;
+color: purple;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: purple;
+}
+
+.marquee {
+background-color: khaki;
+padding: 10px;
+font-weight: bold;
+}
+

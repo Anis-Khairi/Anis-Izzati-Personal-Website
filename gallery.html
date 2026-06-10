@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery & Image Map</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+      <center><h1>My Gallery</h1><center>
+</header>
+<nav>
+     <a href="index.html">Home</a>
+     <a href="biodata.html">Biodata</a>
+     <a href="education.html">Education</a>
+     <a href="gallery.html">Gallery</a>
+     <a href="interest.html">Interest</a>
+     <a href="contact.html">Contact</a>
+</nav>
+
+<div class ="card">
+     <center><h2>My Outfit</h2></center>
+     <div class="gallery">
+     <img src="outfit1.jpeg" width="300" alt="My Outfit 1"> 
+     <img src="outfit2.jpeg" width="300" alt="My Outfit 2"> 
+     <img src="outfit3.jpeg" width="300" alt="My Outfit 3"> 
+</div>
+
+<div class="container">
+<div class="card">
+     <center><h1>My Family</h1></center>
+     <div class="gallery">
+     <img src="family.jpeg" width="300" alt="My Family 1"> 
+     <img src="family1.jpeg" width="300" alt="My Family 2"> 
+     <img src="family2.jpeg" width="300" alt="My Family 3"> 
+</div>
+</div>
+
+<div class="container">
+<div class="card">
+     <center><h2>Image Map</h2></center>
+     <p>Click on the left page of the book, pen, or phone to visit the related website.</p>
+     <img src="studydesk.jpeg" alt="Study Desk" usemap="#studymap" width="500" height="500">
+     <map name="studymap">
+     <!-- Book -->
+     <area shape="rect"
+          coords="10,70,145,330"alt="Book"
+          href="https://www.popularonline.com.my/"target="_blank">
+     <!-- Pen -->
+     <area shape="rect"
+          coords="160,145,215,345"alt="Pen"
+          href="https://ufuture.uitm.edu.my/home/"target="_blank">
+     <!-- Phone -->
+     <area shape="rect"
+          coords="245,185,325,370" alt="Phone"
+          href="https://youtu.be/O-E9XCSdALY?si=oC1yIzPi-Pn--8-z"target="_blank">     
+</map>
+</div>
+</div>
+</div>
+<footer>
+      <b><p>My Photo Collection</p></p>
+</footer>
+</body>
+</html>
